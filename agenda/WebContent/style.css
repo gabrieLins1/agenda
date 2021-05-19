@@ -1,0 +1,24 @@
+/**
+* Folha de estilo da agenda de contatos
+* @author Professor José de Assis
+*/
+
+@charset "utf-8";
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;	
+	border-radius: 5px;	
+}
+
