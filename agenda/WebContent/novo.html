@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>agenda de contatos</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>criar novo contato</h1> 
+    
+                                     <!-- criando um formulario -->
+     <!-- insert e o nome que sera resebido pelo servlet para encaminhamento dos dados do formulario -->
+    <form name="frmcontato" action="insert">
+      <table>
+         <tr>
+          <td><input type="text" name="nome" placeholder="Nome" class="caixa"></td> 
+         </tr> 
+         <tr>
+         <td>  <input type="text" name="fone" placeholder="Fone" class="caixa2"></td>
+         </tr>  
+         <tr>
+        <td>  <input type="text" name="email" placeholder="E-mail" class="caixa"></td>
+         </tr>         
+      </table>
+            <!-- onclick executa um açao no formulario no caso executar a funçao 
+            validar() do documento javascript ligado a este documento -->
+      <input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+    
+    </form>
+                   <!-- ligaçao com o documento valida.js -->
+            <script src="valida.js"></script>
+ 
+
+</body>
+</html>

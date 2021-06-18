@@ -66,11 +66,11 @@ public class JavaBeans {
 	 * @return email
 	 */
 
-	public String getElail() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setElail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 	/**
